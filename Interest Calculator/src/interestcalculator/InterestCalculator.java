@@ -1,19 +1,6 @@
 package interestcalculator;
 
-public class Test {
-
-	public static void main(String[] args) {
-
-		InterestCalculator ic = new InterestCalculator(10300, 8, 18);
-		ic.showOwedAmount();
-		ic.showReleventMonths();
-		ic.showTotalOwed();
-		
-	}
-
-}
-
-class InterestCalculator {
+public class InterestCalculator {
 	
 	private int amount;
 	private int months;
@@ -62,4 +49,13 @@ class InterestCalculator {
 		this.rate = rate;
 	}
 	
+
+	public static void main(String[] args) {
+
+		InterestCalculator ic = new InterestCalculator(10300, 8, 18);
+		ic.showOwedAmount();
+		ic.showReleventMonths();
+		ic.showTotalOwed();
+		
+	}
 }
