@@ -15,9 +15,6 @@ public class MainGame {
 		frame.LaunchFrame(); // launches frame
 		frame.getContentPane().add(game); // adds GamePanel to frame
 		
-		
-
-		
 	}
 
 }
